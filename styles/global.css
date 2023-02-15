@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Podkova:wght@700&display=swap');
 
+
 .container{
     margin: 0 auto;
     max-width: 1440px;
-    height: 1115px;
+     height: 1115px;
     background-image: url(".././assets/header-background.svg");
 }
  /* @Slider-ActiveClass */
-
 .sliderCicle{
     width: 117px;
     height: 17px;
@@ -32,6 +32,7 @@
 
 .header{
     width: 100%;
+    height: 80px;
     display: flex;
     padding-top: 56px;
     align-items: center;
@@ -75,6 +76,7 @@
 .hero_section_row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 123px;
     padding-left: 88px;
 }
@@ -126,10 +128,10 @@
     margin-right: 80px;
 }
 .sectionImage img{
-    position: relative;
     width: 535px;
     height:643px;
     z-index: 1;
+    object-fit: fill;
 }
 .sectionImage::after{
     position: absolute;
@@ -178,6 +180,7 @@
 }
 .collection_card{
     display: flex;
+    flex-wrap: wrap;
     gap:99px
 }
 .collection_card .cardItem{
@@ -229,7 +232,6 @@
     padding-right: 60px;
     padding-left: 50px;
     position: relative;
-
 }
 .bestFachion_section_image{
     width: 660px;
