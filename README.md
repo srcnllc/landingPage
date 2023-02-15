@@ -9,7 +9,7 @@
 
 ## Merhaba! 👋
 "https://www.figma.com/file/ub6k2WFeC82mUpeYO2c3ER/Landing-page-(Community)?node-id=0%3A1&t=C5yKYGEB5poroAhi-0"   
-Adresindeki figma ile düzenlenöiş olan landıngPage sayfasının kodlarını yazdığım bir HTML-CSS çalışmasıdır.
+Adresindeki figma ile düzenlenmiş olan landıngPage sayfasının kodlarını yazdığım bir HTML-CSS çalışmasıdır.
 
 NOT:Responsive tasarımı olmadığı için kodlama responsive değildir.
 
